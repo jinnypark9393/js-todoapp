@@ -80,3 +80,26 @@ body {
 .task-tabs div {
     cursor: pointer;
 }
+
+.input-area {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+#task-input {
+    border-color: lightgray;
+    border-style: solid;
+    border-width: thin;
+}
+
+#add-button {
+    color: white;
+    background-color: pink;
+    border-color: pink;
+    border-style: solid;
+    border-width: thin;
+}
+
+.title {
+    padding-top: 0.5em;
+}
