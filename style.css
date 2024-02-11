@@ -30,13 +30,15 @@ body {
 }
 
 #under-line {
+    /* All 기준 default값 설정 */
     height: 4px;
     background-color: pink;
     position: absolute;
-    width: 90px;
+    width: 82px;
     left: 0px;
-    top: 52px;
+    top: 56px;
     padding: 0px;
+    transition: 0.5s;
 }
 
 .task {
@@ -66,9 +68,15 @@ body {
 .task-check {
     max-height: 1em;
     margin: 0.5em;
+    cursor: pointer;
 }
 
 .task-delete {
     max-height: 1em;
     margin: 0.5em;
+    cursor: pointer;
+}
+
+.task-tabs div {
+    cursor: pointer;
 }
