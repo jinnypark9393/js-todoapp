@@ -42,5 +42,33 @@ body {
 .task {
     display: flex;
     justify-content: space-between;
+}
+
+.task-done {
+    width: 70%;
+    text-decoration: line-through;
+    background-color: lightgray;
     padding: 1em;
+}
+
+.task-item {
+    padding: 1em;
+}
+
+.task-icon {
+    display: flex;
+    width: 30%;
+    padding: 1em;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.task-check {
+    max-height: 1em;
+    margin: 0.5em;
+}
+
+.task-delete {
+    max-height: 1em;
+    margin: 0.5em;
 }
